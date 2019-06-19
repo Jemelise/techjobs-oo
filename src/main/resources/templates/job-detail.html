@@ -9,7 +9,30 @@
 <div class="container body-content">
 
     <!-- // TODO #2 - display the job fields, one per row -->
-
+    <div>
+    <table>
+        <tr>
+            <th>Name</th>
+            <td th:text="${singlejob.name}"></td>
+        </tr>
+        <tr>
+            <th>Employer</th>
+            <td th:text="${singlejob.employer}"></td>
+        </tr>
+        <tr>
+            <th>Location</th>
+            <td th:text="${singlejob.location}"></td>
+        </tr>
+        <tr>
+            <th>Position Type</th>
+            <td th:text="${singlejob.positionType}"></td>
+        </tr>
+        <tr>
+            <th>Skill</th>
+            <td th:text="${singlejob.coreCompetency}"></td>
+        </tr>
+    </table>
+    </div>
 </div>
 
 </body>

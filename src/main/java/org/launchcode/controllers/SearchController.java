@@ -11,9 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.ArrayList;
 
-/**
- * Created by LaunchCode
- */
 @Controller
 @RequestMapping("search")
 public class SearchController {

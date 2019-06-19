@@ -5,9 +5,7 @@ import org.launchcode.models.JobField;
 
 import java.util.ArrayList;
 
-/**
- * Created by LaunchCode
- */
+
 public class JobFieldData<T extends JobField> {
 
     private ArrayList<T> allFields = new ArrayList<>();

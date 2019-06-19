@@ -4,9 +4,7 @@ import org.launchcode.models.*;
 
 import java.util.ArrayList;
 
-/**
- * Created by LaunchCode
- */
+
 public class JobData {
 
     private ArrayList<Job> jobs = new ArrayList<>();
